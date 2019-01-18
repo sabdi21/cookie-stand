@@ -1,18 +1,22 @@
+* {
+  font-family: 'Times', times;
+}
+
 body {
-  background: #ccc;
+  background: gray;
 }
 
 table {
-  border: 10px solid black;
+  border: 10px solid coral;
 }
 
 td {
   padding: 10px;
   border-radius: 15px;
-  border: 1px solid black;
-  background: pink;
+  border: 1px solid rgb(223, 140, 45);
+  background: gray;
 }
 
 th {
-  background-color: black;
+  background-color: pink;
   color: white;
