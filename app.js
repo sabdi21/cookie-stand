@@ -45,7 +45,6 @@ Locations.prototype.calcTotalDailySales = function(){
 
 // render function
 Locations.prototype.render = function(){
-  
   var trEl = document.createElement('tr');
 
   var tdEl = document.createElement('td');

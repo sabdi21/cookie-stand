@@ -1,22 +1,33 @@
 * {
   font-family: 'Times', times;
+  margin: 100px, 50px, 100px, 50px;
 }
 
 body {
-  background: gray;
+  background: rgb(240, 198, 214);
+}
+
+h1 {
+  font-family: cursive;
+  font-style: oblique;
+  font-size: 100px;
+  color: palevioletred; 
+  position: absolute;
+  text-align: center;
 }
 
 table {
-  border: 10px solid coral;
+  border: 10px solid rgb(233, 6, 138);
 }
 
 td {
   padding: 10px;
   border-radius: 15px;
   border: 1px solid rgb(223, 140, 45);
-  background: gray;
+  background: whitesmoke;
 }
 
 th {
-  background-color: pink;
-  color: white;
+  background-color: rgb(132, 121, 138);
+  color: rgb(54, 7, 182);
+
