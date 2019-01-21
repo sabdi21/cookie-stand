@@ -7,17 +7,52 @@ body {
   background: rgb(240, 198, 214);
 }
 
+.salmon {
+  position: relative;
+  background-color: coral;
+  border: 10px solid white;
+  border-radius: 70%;
+  left: 250px;
+  z-index: auto;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  bottom: 100px;
+}
+
+li {
+  float: right;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.location-form {
+  position: absolute;
+  bottom: 100px;
+}
+
 h1 {
   font-family: cursive;
   font-style: oblique;
-  font-size: 100px;
-  color: palevioletred; 
-  position: absolute;
+  font-size: 90px;
+  color: white;
   text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+nav li {
+  display: inline block;
+  /* margin-top: 50px; */
+  margin-right: 90px;
 }
 
 table {
   border: 10px solid rgb(233, 6, 138);
+  margin-left: 100px, 100px, 100px, 100px;
 }
 
 td {
@@ -30,4 +65,4 @@ td {
 th {
   background-color: rgb(132, 121, 138);
   color: rgb(54, 7, 182);
-
+}
